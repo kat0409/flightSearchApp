@@ -1,0 +1,47 @@
+#container-1 {
+    width: 500px;
+    height: 120px;
+    background-color: #daecff;
+    border-radius: 10px;
+}
+
+#container-2 {
+    width: 500px;
+    height: 120px;
+    background-color: #daecff;
+    border-radius: 10px;
+}
+
+#container-3 {
+    width: 500px;
+    height: 120px;
+    background-color: #daecff;
+    border-radius: 10px;
+}
+
+#container-4 {
+    width: 500px;
+    height: 120px;
+    background-color: #daecff;
+    border-radius: 10px;
+}
+
+#blank-space-1 {
+    width: 500px;
+    height: 20px
+}
+
+#blank-space-2 {
+    width: 500px;
+    height: 20px
+}
+
+#blank-space-3 {
+    width: 500px;
+    height: 20px
+}
+
+#origin {
+    font-size: 24px;
+    color: #376996;
+}
