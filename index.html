@@ -8,28 +8,52 @@
 </head>
 <body>
     <main>
-        <div class="container">
+
+
+        <div class="container" id="container-1">
             <form action="" method="get" class="input">
                 <div id="flight-origin">
-                  <label for="origin">Origin</label>
+                  <label for="origin">Origin: </label>
                   <input type="text" name="origin" id="origin" required />
                 </div>
-                
                 <div id="flight-destination">
-                  <label for="destination">Destination</label>
+                  <label for="destination">Destination: </label>
                   <input type="text" name="destination" id="destination" required />
-                
-                </div>
-                
-                <div class="search-btn">
-                  <input type="submit" value="Search" />
-                </div>
-
+                </div>             
             </form>
-            
-            <div id="output-container">
+        </div>
 
+        
+        <div class="container" id="container-2"> 
+          <form action="" method="get" class="input">
+            <div id="budget-input">
+              <label for="budget" >Budget: </label>
+              <input type="text" name="budget" id="budget" required/>
             </div>
+          </form>
+        </div>
+
+        <div class="container" id="container-3">
+          <form action="" method="get" class="input">
+            <div id="expected-time">
+              <label for="time">Time: </label>
+              <input type="text" name="time" id="time" required/>
+            </div>
+          </form>
+        </div>
+
+        <div class="container" id="container-4">
+          <form action="" method="get" class="input">
+            <div id="luggage-count">
+              <label for="luggage">Luggage Count: </label>
+              <input type="text" name="luggage" id="luggage" required/>
+            </div>
+          </form>
+        </div>
+
+
+        <div class="search-btn">
+          <input type="submit" value="Search" />
         </div>
     </main>
 </body>
