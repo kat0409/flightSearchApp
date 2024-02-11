@@ -30,17 +30,17 @@
 
 #blank-space-1 {
     width: 560px;
-    height: 20px
+    height: 15px
 }
 
 #blank-space-2 {
     width: 560px;
-    height: 20px
+    height: 15px
 }
 
 #blank-space-3 {
     width: 560px;
-    height: 20px
+    height: 15px
 }
 
 #origin {
@@ -449,4 +449,11 @@
     font-family: Inter;
     font-weight: bold;
     text-shadow: none;
+}
+
+#airplane {
+    width: 35px;
+    height: 35px;;
+    top: 12px;
+    position: relative;
 }
