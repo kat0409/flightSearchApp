@@ -149,9 +149,9 @@
     height: 175px;
     background-color: #daecff;
     border-radius: 10px;
-    float: right;
-    position: relative;
-    top: -580px;
+    position: absolute;
+    left: 600px;
+    top: 10px;
 }
 
 #output-2 {
@@ -159,9 +159,9 @@
     height: 175px;
     background-color: #daecff;
     border-radius: 10px;
-    float: right;
-    position: relative;
-    top: -580px;
+    left: 600px;
+    position: absolute;
+    top: 195px;
 }
 
 #output-3 {
@@ -169,27 +169,27 @@
     height: 175px;
     background-color: #daecff;
     border-radius: 10px;
-    float: right;
-    position: relative;
-    top: -580px;
+    position: absolute;
+    top: 380px;
+    left: 600px;
 }
 
 #blank-space-4 {
     width: 650px;
     height: 10px;
     border-radius: 10px;
-    float: right;
-    position: relative;
-    top: -580px;
+    left: 600px;
+    position: absolute;
+    top: 185px;
 }
 
 #blank-space-5 {
     width: 650px;
     height: 10px;
     border-radius: 10px;
-    float: right;
-    position: relative;
-    top: -580px;
+    left: 600px;
+    position: absolute;
+    top: 370px;
 }
 
 #image-1 {
@@ -456,6 +456,7 @@
 #airplane {
     width: 35px;
     height: 35px;;
-    top: 12px;
-    position: relative;
+    top: 537px;
+    left: 110px;
+    position: absolute;
 }
