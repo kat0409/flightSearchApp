@@ -8,7 +8,7 @@ patterns = [
     (r'what is your name?', ['You can call me Chatbot.', 'My name is Chatbot.']),
     (r'(.*) your name?', ["I'm just a chatbot, I don't have a name."]),
     (r'quit', ['Bye, take care!', 'Goodbye!']),
-    (r'ticket price|cheapest tickets| most affordable flights', ['Prices range from 6 cheapest categories. The price ranges are $25-$100, $101-$500, $501-$1000, $1001-$5000, $5001-$10000, $1001+']),
+    (r'ticket price|cheapest tickets| most affordable flights', ['Prices range from 6 cheapest categories. The price ranges are $25-$100, $101-$500, $501-$1000, $1001-$5000, $5001-$10000, $1001+'])
 ]
 
 # Create a chatbot
